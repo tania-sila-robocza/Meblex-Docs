@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Meblex_ERD" id="21F3E2F6-8EE2-9182-FB76-A0D53889CA70" version="3.5">
+<createdBy>mikar</createdBy>
+<createdTime>2019-03-25 17:27:38 UTC</createdTime>
+<ownerDesignName>Meblex_ERD</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>21F3E2F6-8EE2-9182-FB76-A0D53889CA70</designId>
+</OSDM_Design>
