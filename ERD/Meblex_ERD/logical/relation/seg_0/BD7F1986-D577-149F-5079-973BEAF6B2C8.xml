@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_10" directorySegmentName="seg_0" id="BD7F1986-D577-149F-5079-973BEAF6B2C8">
+<createdBy>mikar</createdBy>
+<createdTime>2019-03-25 19:01:58 UTC</createdTime>
+<ownerDesignName>Meblex_ERD</ownerDesignName>
+<engineerTo>
+<item key="B7798B61-312F-5FD5-7AE1-842AE566D6F2" value="true"/>
+</engineerTo>
+<sourcePk>FF554966-8097-F423-47D7-ED1941C680E8</sourcePk>
+<targetPk>9D4A624E-AF6D-0B08-BE05-A0CD69267A50</targetPk>
+<identifying>false</identifying>
+<nameOnSource>pyta o</nameOnSource>
+<nameOnTarget>dotyczy</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5AB07E49-9726-824C-6E62-74BD90820B15</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>85720112-14CE-3E2C-C146-882D0C571C02</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

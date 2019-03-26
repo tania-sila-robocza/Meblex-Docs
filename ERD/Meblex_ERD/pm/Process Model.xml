@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="7B168E7A-BFFD-6F53-EE56-99B208BEBD37">
+<createdBy>mikar</createdBy>
+<createdTime>2019-03-25 17:27:38 UTC</createdTime>
+<ownerDesignName>Meblex_ERD</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

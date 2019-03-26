@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D9BDDFB8-008C-1BE2-6C20-6A1F1F082BB9" name="order_line">
+<createdBy>mikar</createdBy>
+<createdTime>2019-03-25 18:02:11 UTC</createdTime>
+<ownerDesignName>Meblex_ERD</ownerDesignName>
+<engineerTo>
+<item key="B7798B61-312F-5FD5-7AE1-842AE566D6F2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="8DED26FD-236F-842D-B7DC-51524B7EBF3D">
+<createdBy>mikar</createdBy>
+<createdTime>2019-03-25 18:02:35 UTC</createdTime>
+<ownerDesignName>Meblex_ERD</ownerDesignName>
+<engineerTo>
+<item key="B7798B61-312F-5FD5-7AE1-842AE566D6F2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="count" id="E0684F0D-B78A-4A24-1D21-E8CADBA93B48">
+<createdBy>mikar</createdBy>
+<createdTime>2019-03-25 18:02:45 UTC</createdTime>
+<ownerDesignName>Meblex_ERD</ownerDesignName>
+<engineerTo>
+<item key="B7798B61-312F-5FD5-7AE1-842AE566D6F2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="price" id="366ED9E3-81EB-3047-67EB-4127B7F1EDC6">
+<createdBy>mikar</createdBy>
+<createdTime>2019-03-25 18:03:18 UTC</createdTime>
+<ownerDesignName>Meblex_ERD</ownerDesignName>
+<engineerTo>
+<item key="B7798B61-312F-5FD5-7AE1-842AE566D6F2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="01F6565C-ADF9-1676-080F-9EDA0616BB0F">
+<createdBy>mikar</createdBy>
+<createdTime>2019-03-25 19:06:08 UTC</createdTime>
+<generatorID>CCA3FD15-5DF3-AE5A-35D7-4A30A38C8B95</generatorID>
+<ownerDesignName>Meblex_ERD</ownerDesignName>
+<engineerTo>
+<item key="B7798B61-312F-5FD5-7AE1-842AE566D6F2" value="true"/>
+</engineerTo>
+<referedAttribute>56C6B201-BF02-7AB1-FE19-7C4D39E5F59F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id3" id="A7F1AC88-E0A7-7BC8-FF15-53EE990A7318">
+<createdBy>mikar</createdBy>
+<createdTime>2019-03-25 19:12:27 UTC</createdTime>
+<generatorID>4DE03ACA-65ED-6D2E-EF3F-1A35EF8622AE</generatorID>
+<ownerDesignName>Meblex_ERD</ownerDesignName>
+<engineerTo>
+<item key="B7798B61-312F-5FD5-7AE1-842AE566D6F2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5D0169CF-6F8F-441F-4140-E2A846437BB1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id11" id="2F21F341-71D7-F9D3-DFC5-82E2A2CD1669">
+<createdBy>mikar</createdBy>
+<createdTime>2019-03-25 19:12:27 UTC</createdTime>
+<generatorID>4DE03ACA-65ED-6D2E-EF3F-1A35EF8622AE</generatorID>
+<ownerDesignName>Meblex_ERD</ownerDesignName>
+<engineerTo>
+<item key="B7798B61-312F-5FD5-7AE1-842AE566D6F2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>2B359133-D19A-78EA-5108-CE950190E436</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C4CE1452-7EAB-0D14-55F5-F211FC27FDD7" name="order_line PK">
+<createdBy>mikar</createdBy>
+<createdTime>2019-03-25 18:02:43 UTC</createdTime>
+<ownerDesignName>Meblex_ERD</ownerDesignName>
+<engineerTo>
+<item key="B7798B61-312F-5FD5-7AE1-842AE566D6F2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8DED26FD-236F-842D-B7DC-51524B7EBF3D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
