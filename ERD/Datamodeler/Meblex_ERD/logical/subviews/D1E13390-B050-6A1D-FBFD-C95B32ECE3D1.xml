@@ -16,7 +16,7 @@
 <objectViews>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="138E070D-63DF-FEF1-3375-92B00A328CA5" otype="Entity" vid="6D090747-BE9C-A708-F741-FFA36CB4A4E9">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="412" y="536" width="170" height="110"/>
+<bounds x="407" y="438" width="170" height="110"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="28B4E319-1DE2-9911-16A1-BAA9A72FBD13" otype="Entity" vid="D0BB8054-FAC3-8D67-2D72-DC208469679E">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -74,7 +74,7 @@
 <lineWidth>1</lineWidth>
 <sourceLabel class="oracle.dbtools.crest.model.design.Label">
 <site>0</site>
-<labelBounds x="268" y="505" width="87" height="30"/>
+<labelBounds x="268" y="489" width="87" height="30"/>
 <noBackgroundColor>true</noBackgroundColor>
 <noForegroundColor>true</noForegroundColor>
 </sourceLabel>
@@ -137,19 +137,19 @@
 <lineWidth>1</lineWidth>
 <sourceLabel class="oracle.dbtools.crest.model.design.Label">
 <site>0</site>
-<labelBounds x="321" y="489" width="52" height="30"/>
+<labelBounds x="347" y="415" width="52" height="30"/>
 <noBackgroundColor>true</noBackgroundColor>
 <noForegroundColor>true</noForegroundColor>
 </sourceLabel>
 <targetLabel class="oracle.dbtools.crest.model.design.Label">
 <site>2</site>
-<labelBounds x="427" y="500" width="49" height="30"/>
+<labelBounds x="352" y="448" width="49" height="30"/>
 <noBackgroundColor>true</noBackgroundColor>
 <noForegroundColor>true</noForegroundColor>
 </targetLabel>
 <points>
-<point x="321" y="453"/>
-<point x="427" y="536"/>
+<point x="337" y="445"/>
+<point x="407" y="445"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="4DE03ACA-65ED-6D2E-EF3F-1A35EF8622AE" otype="Relation" vid_source="A7BBB64F-E25B-E4DB-A5C5-C2FC56652872" vid_target="234DFD2D-52EA-5249-322B-6FB16C98775F">
@@ -221,7 +221,7 @@
 <lineWidth>1</lineWidth>
 <sourceLabel class="oracle.dbtools.crest.model.design.Label">
 <site>0</site>
-<labelBounds x="170" y="497" width="52" height="30"/>
+<labelBounds x="170" y="505" width="52" height="30"/>
 <noBackgroundColor>true</noBackgroundColor>
 <noForegroundColor>true</noForegroundColor>
 </sourceLabel>

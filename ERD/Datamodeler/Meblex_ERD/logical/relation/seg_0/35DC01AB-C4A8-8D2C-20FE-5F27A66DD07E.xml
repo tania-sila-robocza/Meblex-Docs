@@ -13,9 +13,9 @@
 <nameOnTarget>tworzy</nameOnTarget>
 <optionalSource>false</optionalSource>
 <optionalTarget>true</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
+<sourceCardinality>*</sourceCardinality>
 <sourceEntity>2B18F71F-A1EA-975E-8B83-315198C6B103</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
+<targetCardinalityString>1</targetCardinalityString>
 <targetEntity>EE8932FF-BECA-3F2D-20C1-2B417C09E42F</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>

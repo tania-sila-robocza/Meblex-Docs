@@ -13,9 +13,9 @@
 <nameOnTarget>opisuje</nameOnTarget>
 <optionalSource>false</optionalSource>
 <optionalTarget>true</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
+<sourceCardinality>*</sourceCardinality>
 <sourceEntity>2B18F71F-A1EA-975E-8B83-315198C6B103</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
+<targetCardinalityString>1</targetCardinalityString>
 <targetEntity>F6ECF03A-8E8A-7AB7-D7F6-400728BA673E</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>

@@ -79,6 +79,48 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id2" id="3952730D-0170-17B7-48AA-7E9C250EA528">
+<createdBy>mikar</createdBy>
+<createdTime>2019-03-26 15:49:21 UTC</createdTime>
+<generatorID>35DC01AB-C4A8-8D2C-20FE-5F27A66DD07E</generatorID>
+<ownerDesignName>Meblex_ERD</ownerDesignName>
+<engineerTo>
+<item key="B7798B61-312F-5FD5-7AE1-842AE566D6F2" value="true"/>
+</engineerTo>
+<referedAttribute>2835BCF5-9E49-C20A-3CA1-B127E831970C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id3" id="C3D374DC-55F3-0013-05F6-080AFFE581B5">
+<createdBy>mikar</createdBy>
+<createdTime>2019-03-26 15:49:26 UTC</createdTime>
+<generatorID>9A6FADD1-F51E-8F1D-7E48-BD15BA1B007E</generatorID>
+<ownerDesignName>Meblex_ERD</ownerDesignName>
+<engineerTo>
+<item key="B7798B61-312F-5FD5-7AE1-842AE566D6F2" value="true"/>
+</engineerTo>
+<referedAttribute>C1E2A15D-A918-E841-C3F0-1A27F702009C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id4" id="C863DE1A-8591-CF14-35CB-87AB1F622E0F">
+<createdBy>mikar</createdBy>
+<createdTime>2019-03-26 15:49:34 UTC</createdTime>
+<generatorID>4B0AB9CC-D653-9457-6F5A-0985145D9AB1</generatorID>
+<ownerDesignName>Meblex_ERD</ownerDesignName>
+<engineerTo>
+<item key="B7798B61-312F-5FD5-7AE1-842AE566D6F2" value="true"/>
+</engineerTo>
+<referedAttribute>4C071CD7-48EC-25BB-2E08-AD751831CEB7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="5FDD6A5F-3C2D-C9D0-00E3-A4FFDD59FAE4" name="piece PK">
