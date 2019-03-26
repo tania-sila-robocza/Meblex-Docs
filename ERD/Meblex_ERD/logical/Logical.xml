@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="1F665E4D-00FF-E4C6-1A6C-0AD092855C5A" mainViewID="54728415-456F-42B0-0C7B-47FD98F0FF45">
-<createdBy>mikar</createdBy>
-<createdTime>2019-03-25 17:27:38 UTC</createdTime>
-<ownerDesignName>Meblex_ERD</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</LogicalDesign>
