@@ -89,12 +89,24 @@
 <engineerTo>
 <item key="B7798B61-312F-5FD5-7AE1-842AE566D6F2" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <referedAttribute>2B359133-D19A-78EA-5108-CE950190E436</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="size" id="8AF109A9-3BFC-026D-3F1E-C8912E06D7F9">
+<createdBy>mikar</createdBy>
+<createdTime>2019-03-26 19:32:41 UTC</createdTime>
+<ownerDesignName>Meblex_ERD</ownerDesignName>
+<engineerTo>
+<item key="B7798B61-312F-5FD5-7AE1-842AE566D6F2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

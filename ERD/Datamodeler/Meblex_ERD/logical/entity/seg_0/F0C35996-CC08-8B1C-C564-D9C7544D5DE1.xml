@@ -66,20 +66,6 @@
 <dataTypeSize>32 CHAR</dataTypeSize>
 <ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id1" id="A755B9F3-16DF-5BC9-56E3-F60B5F20FE56">
-<createdBy>mikar</createdBy>
-<createdTime>2019-03-25 19:19:27 UTC</createdTime>
-<generatorID>C196A5D9-465D-A498-AEF4-7CC29EBA09F0</generatorID>
-<ownerDesignName>Meblex_ERD</ownerDesignName>
-<engineerTo>
-<item key="B7798B61-312F-5FD5-7AE1-842AE566D6F2" value="true"/>
-</engineerTo>
-<referedAttribute>213BF8F8-146E-9221-419C-D75038D2BE12</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="D93D2085-A479-E70D-4AAF-D755191A5528" name="user PK">

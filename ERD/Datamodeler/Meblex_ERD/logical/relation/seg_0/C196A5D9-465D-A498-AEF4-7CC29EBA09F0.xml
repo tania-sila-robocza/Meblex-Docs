@@ -12,7 +12,7 @@
 <nameOnSource>jest</nameOnSource>
 <nameOnTarget>jest</nameOnTarget>
 <optionalSource>false</optionalSource>
-<optionalTarget>false</optionalTarget>
+<optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>543DC3E1-ECE6-1447-7D15-7A59546ADAF6</sourceEntity>
 <targetCardinalityString>1</targetCardinalityString>
