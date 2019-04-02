@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F51A73B2-A23A-491C-E1F0-607ACC97B7C0" name="pattern">
+<createdBy>mikar</createdBy>
+<createdTime>2019-04-02 15:18:20 UTC</createdTime>
+<generatorID>138E070D-63DF-FEF1-3375-92B00A328CA5</generatorID>
+<ownerDesignName>Meblex_ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="EFF9A9D0-0633-44DA-4E31-FF408009E01F">
+<createdBy>mikar</createdBy>
+<createdTime>2019-04-02 15:18:20 UTC</createdTime>
+<generatorID>4C071CD7-48EC-25BB-2E08-AD751831CEB7</generatorID>
+<ownerDesignName>Meblex_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="A8D3D637-54E9-AA10-0CDF-9A7E31F85655">
+<createdBy>mikar</createdBy>
+<createdTime>2019-04-02 15:18:20 UTC</createdTime>
+<generatorID>7497BABA-5ED2-EE93-D490-64ACA6930027</generatorID>
+<ownerDesignName>Meblex_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="slug" id="3D7D6B86-C94F-0020-D8B3-55A080D73AA1">
+<createdBy>mikar</createdBy>
+<createdTime>2019-04-02 15:18:20 UTC</createdTime>
+<generatorID>33CAE900-909A-540B-CCA4-8F58A01B624A</generatorID>
+<ownerDesignName>Meblex_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9D0CA7E3-E4BD-54EA-C59A-2EB44596D05A" name="pattern_PK">
+<createdBy>mikar</createdBy>
+<createdTime>2019-04-02 15:18:20 UTC</createdTime>
+<generatorID>A643D964-3371-F361-A838-4FC6D52C0672</generatorID>
+<ownerDesignName>Meblex_ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFF9A9D0-0633-44DA-4E31-FF408009E01F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

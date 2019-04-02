@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EBD13621-5D23-3EE5-548D-DE3CC6D3BFBF" containerWithKeyObject="3E546772-A8DD-781A-E43E-1DE4174B15F4" localFKIndex="FD5AAF3C-6057-2192-6F6C-AA12A89F19B8" name="part_pattern_FK">
+<createdBy>mikar</createdBy>
+<createdTime>2019-04-02 15:18:20 UTC</createdTime>
+<generatorID>4B0AB9CC-D653-9457-6F5A-0985145D9AB1</generatorID>
+<ownerDesignName>Meblex_ERD</ownerDesignName>
+<referredTableLongName>pattern</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F51A73B2-A23A-491C-E1F0-607ACC97B7C0</referredTableID>
+<keyObject>9D0CA7E3-E4BD-54EA-C59A-2EB44596D05A</keyObject>
+<referredKeyID>9D0CA7E3-E4BD-54EA-C59A-2EB44596D05A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,176 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3E546772-A8DD-781A-E43E-1DE4174B15F4" name="part">
+<createdBy>mikar</createdBy>
+<createdTime>2019-04-02 15:18:20 UTC</createdTime>
+<generatorID>2B18F71F-A1EA-975E-8B83-315198C6B103</generatorID>
+<ownerDesignName>Meblex_ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="C005B827-04CA-FF74-F2F9-DE862D544F5E">
+<createdBy>mikar</createdBy>
+<createdTime>2019-04-02 15:18:20 UTC</createdTime>
+<generatorID>1ED668FE-6411-14FB-E70F-3457128BB5FF</generatorID>
+<ownerDesignName>Meblex_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="BA2278C2-7277-3E5F-B830-43A08D94EC4A">
+<createdBy>mikar</createdBy>
+<createdTime>2019-04-02 15:18:20 UTC</createdTime>
+<generatorID>2E351201-188D-120F-A667-DFF50120CBDB</generatorID>
+<ownerDesignName>Meblex_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="count" id="A4AA7461-F1B5-8165-7F0B-6B8395A58A9E">
+<createdBy>mikar</createdBy>
+<createdTime>2019-04-02 15:18:20 UTC</createdTime>
+<generatorID>159CE7F0-33B5-B088-AFE1-AE5EBC7010A8</generatorID>
+<ownerDesignName>Meblex_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="price" id="13ECE80E-BF2E-7C66-5611-2938A2116A45">
+<createdBy>mikar</createdBy>
+<createdTime>2019-04-02 15:18:20 UTC</createdTime>
+<generatorID>2211A96D-BCE2-03C7-CE0D-94C5F33999BE</generatorID>
+<ownerDesignName>Meblex_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="piece_of_furniture_id" id="A607FF59-255F-21DC-0D10-0B89BCE1C0AF">
+<createdBy>mikar</createdBy>
+<createdTime>2019-04-02 15:18:20 UTC</createdTime>
+<generatorID>7EB74A51-26C1-098A-77C6-E2B08594B0E1</generatorID>
+<ownerDesignName>Meblex_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4EA55403-946F-F257-884E-2DE2C82803A1" referredColumn="4ED07751-6D85-8602-7871-DF5137084278"/>
+</associations>
+</Column>
+<Column name="material_id" id="B0C60BD6-56BE-C20E-536B-E7B68BCD857D">
+<createdBy>mikar</createdBy>
+<createdTime>2019-04-02 15:18:20 UTC</createdTime>
+<generatorID>3952730D-0170-17B7-48AA-7E9C250EA528</generatorID>
+<ownerDesignName>Meblex_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A94FC1E8-90F9-CC1F-2DC7-F1AB623F5115" referredColumn="9DCAD932-3347-1083-E351-F31703D83012"/>
+</associations>
+</Column>
+<Column name="color_id" id="83645DA5-0360-889D-9E7A-76FC7C90A1FB">
+<createdBy>mikar</createdBy>
+<createdTime>2019-04-02 15:18:20 UTC</createdTime>
+<generatorID>C3D374DC-55F3-0013-05F6-080AFFE581B5</generatorID>
+<ownerDesignName>Meblex_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C54CFE2-E4E5-2F75-BE5D-5B3BE450992F" referredColumn="4141FD50-5092-A56A-3100-FDA71FF91666"/>
+</associations>
+</Column>
+<Column name="pattern_id" id="A56DB96C-38E4-914F-651C-CAC89F3CC9C6">
+<createdBy>mikar</createdBy>
+<createdTime>2019-04-02 15:18:20 UTC</createdTime>
+<generatorID>C863DE1A-8591-CF14-35CB-87AB1F622E0F</generatorID>
+<ownerDesignName>Meblex_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EBD13621-5D23-3EE5-548D-DE3CC6D3BFBF" referredColumn="EFF9A9D0-0633-44DA-4E31-FF408009E01F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC3527AB-C297-19FE-E9A6-A5B0E9966790" name="part_PK">
+<createdBy>mikar</createdBy>
+<createdTime>2019-04-02 15:18:20 UTC</createdTime>
+<generatorID>5FDD6A5F-3C2D-C9D0-00E3-A4FFDD59FAE4</generatorID>
+<ownerDesignName>Meblex_ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C005B827-04CA-FF74-F2F9-DE862D544F5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6AD9E483-5236-A67E-4D6A-163B950A0CFD" name="part_color_FK">
+<createdBy>mikar</createdBy>
+<createdTime>2019-04-02 15:18:20 UTC</createdTime>
+<generatorID>9A6FADD1-F51E-8F1D-7E48-BD15BA1B007E</generatorID>
+<ownerDesignName>Meblex_ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83645DA5-0360-889D-9E7A-76FC7C90A1FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1AB5E901-FFE7-8C05-AA7E-8CCF21F4A2DD" name="part_material_FK">
+<createdBy>mikar</createdBy>
+<createdTime>2019-04-02 15:18:20 UTC</createdTime>
+<generatorID>35DC01AB-C4A8-8D2C-20FE-5F27A66DD07E</generatorID>
+<ownerDesignName>Meblex_ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0C60BD6-56BE-C20E-536B-E7B68BCD857D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD5AAF3C-6057-2192-6F6C-AA12A89F19B8" name="part_pattern_FK">
+<createdBy>mikar</createdBy>
+<createdTime>2019-04-02 15:18:20 UTC</createdTime>
+<generatorID>4B0AB9CC-D653-9457-6F5A-0985145D9AB1</generatorID>
+<ownerDesignName>Meblex_ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A56DB96C-38E4-914F-651C-CAC89F3CC9C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="610E5A4B-65BD-7066-605D-5C9CC19C2772" name="part_piece_of_furniture_FK">
+<createdBy>mikar</createdBy>
+<createdTime>2019-04-02 15:18:20 UTC</createdTime>
+<generatorID>B939A2C7-1AF2-EF9A-4238-C721B74F6490</generatorID>
+<ownerDesignName>Meblex_ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A607FF59-255F-21DC-0D10-0B89BCE1C0AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
