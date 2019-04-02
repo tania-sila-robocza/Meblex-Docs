@@ -123,6 +123,11 @@
 <point x="165" y="170"/>
 </points>
 </Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="61ED2A7A-21F8-8BF5-BCBC-C21B5F7E5445" otype="Relation" vid_source="DE87B8BA-11A4-B505-5177-447E060A6A4C" vid_target="1F3ECC34-BD7E-C5EF-7433-C31C9489D597">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+</Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="9A6FADD1-F51E-8F1D-7E48-BD15BA1B007E" otype="Relation" vid_source="DE87B8BA-11A4-B505-5177-447E060A6A4C" vid_target="6294D7F4-E342-0EF5-06E0-0D2E3B271197">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <backgroundColor>-16777216</backgroundColor>
@@ -174,4 +179,10 @@
 </points>
 </Connector>
 </connectors>
+<arcs>
+<Arc class="oracle.dbtools.crest.swingui.logical.TVArc" oid="152C3CAD-6E01-D4E2-09A8-5B4D944A5464" otype="Arc" vid="9DBD2404-2D47-74A6-CDD8-6BA80B10E5FC">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="120" y="210" width="210" height="150"/>
+</Arc>
+</arcs>
 </Diagram>

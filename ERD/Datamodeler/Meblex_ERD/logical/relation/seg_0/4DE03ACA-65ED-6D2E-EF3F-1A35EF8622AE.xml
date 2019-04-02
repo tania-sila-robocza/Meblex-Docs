@@ -11,8 +11,8 @@
 <identifying>false</identifying>
 <nameOnSource>jest w</nameOnSource>
 <nameOnTarget>zawiera</nameOnTarget>
-<optionalSource>true</optionalSource>
-<optionalTarget>false</optionalTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
 <sourceCardinality>*</sourceCardinality>
 <sourceEntity>D9BDDFB8-008C-1BE2-6C20-6A1F1F082BB9</sourceEntity>
 <targetCardinalityString>1</targetCardinalityString>

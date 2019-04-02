@@ -74,22 +74,7 @@
 <engineerTo>
 <item key="B7798B61-312F-5FD5-7AE1-842AE566D6F2" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <referedAttribute>5D0169CF-6F8F-441F-4140-E2A846437BB1</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id11" id="2F21F341-71D7-F9D3-DFC5-82E2A2CD1669">
-<createdBy>mikar</createdBy>
-<createdTime>2019-03-25 19:12:27 UTC</createdTime>
-<generatorID>4DE03ACA-65ED-6D2E-EF3F-1A35EF8622AE</generatorID>
-<ownerDesignName>Meblex_ERD</ownerDesignName>
-<engineerTo>
-<item key="B7798B61-312F-5FD5-7AE1-842AE566D6F2" value="true"/>
-</engineerTo>
-<referedAttribute>2B359133-D19A-78EA-5108-CE950190E436</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -108,6 +93,20 @@
 <dataTypeSize>32 CHAR</dataTypeSize>
 <ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id2" id="558F6C30-2985-F88F-3D9C-D993626708B3">
+<createdBy>mikar</createdBy>
+<createdTime>2019-04-02 14:56:32 UTC</createdTime>
+<generatorID>61ED2A7A-21F8-8BF5-BCBC-C21B5F7E5445</generatorID>
+<ownerDesignName>Meblex_ERD</ownerDesignName>
+<engineerTo>
+<item key="B7798B61-312F-5FD5-7AE1-842AE566D6F2" value="true"/>
+</engineerTo>
+<referedAttribute>1ED668FE-6411-14FB-E70F-3457128BB5FF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="C4CE1452-7EAB-0D14-55F5-F211FC27FDD7" name="order_line PK">
@@ -120,6 +119,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>8DED26FD-236F-842D-B7DC-51524B7EBF3D</attributeRef>
+<attributeRef>82441FC8-C9C6-C139-7EC3-6645B18133D5</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

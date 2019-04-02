@@ -7,11 +7,10 @@
 <item key="B7798B61-312F-5FD5-7AE1-842AE566D6F2" value="true"/>
 </engineerTo>
 <sourcePk>9D4A624E-AF6D-0B08-BE05-A0CD69267A50</sourcePk>
-<targetPk>5FDD6A5F-3C2D-C9D0-00E3-A4FFDD59FAE4</targetPk>
 <identifying>false</identifying>
 <nameOnSource>sklada sie z</nameOnSource>
 <nameOnTarget>nalezy do</nameOnTarget>
-<optionalSource>false</optionalSource>
+<optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>85720112-14CE-3E2C-C146-882D0C571C02</sourceEntity>

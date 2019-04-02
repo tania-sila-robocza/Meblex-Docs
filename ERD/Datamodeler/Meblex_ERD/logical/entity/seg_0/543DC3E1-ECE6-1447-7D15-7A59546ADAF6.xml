@@ -118,6 +118,20 @@
 <dataTypeSize>32 CHAR</dataTypeSize>
 <ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="nip" id="E246D482-2893-6333-CC4F-E8B2B25B124B">
+<createdBy>mikar</createdBy>
+<createdTime>2019-04-02 15:03:26 UTC</createdTime>
+<ownerDesignName>Meblex_ERD</ownerDesignName>
+<engineerTo>
+<item key="B7798B61-312F-5FD5-7AE1-842AE566D6F2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="F382480E-59A6-D16B-5816-0C94BAF013CF" name="client PK">
